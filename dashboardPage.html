@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBB - Dashboard Page</title>
+    <link rel="icon" type="image/x-icon" href="./images/Logo.png">
+    <link rel="stylesheet" href="./css/dashboardPageStyle.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+<body>
+
+    <header id="navigation">
+        <nav id="navbar">
+            <a href="./index.html" class="logo"><img src="./Images/Logo.png" alt="NBB - Logo"></a>
+
+            <ul class="main tabList">
+                <li><a href="./index.html" class="tab">Home</a></li>
+                <li><a href="./aboutPage.html" class="tab">About</a></li>
+                <li><a href="./dashboardPage.html" class="tab">Check Dashboard</a></li>
+            </ul>
+            
+            <ul class="sec tabList">
+                <li><a href="./signPage.html" class="tab">Sign up</a></li>
+                <li><a href="./AdminPanel/adminPanel.html" class="tab admin-perms">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header id="main-section">
+        <h1>WELCOME TO NBB</h1>
+        <h3>Check Your Dashboard Score by Entering Your National Number!</h3>
+        <input type="number" placeholder="Enter Your National Number." name="natNum" id="natNum">
+        <a class="dashBtn" id="getDashBtn">Get Result</a>
+
+        <table id="dashboard">
+            <thead class="table-headers">
+                <tr>
+                    <th class="theader">Student Name:</th>
+                    <th class="theader">Student Score:</th>
+                    <th class="theader">Student Level:</th>
+                    <th class="theader">Percentage:</th>
+                    <th class="theader">Violations:</th>
+                    <th class="theader">Bad Behavior:</th>
+                    <th class="theader">Absence:</th>
+                    <th class="theader">Total Minus:</th>
+                </tr>
+            </thead>
+            <tbody class="table-values">
+                <tr>
+                    <td class="tvalue" id="studName">Null</td>
+                    <td class="tvalue" id="studScore">None</td>
+                    <td class="tvalue" id="studLevel">None</td>
+                    <td class="tvalue" id="studPercent">None</td>
+                    <td class="tvalue" id="studViolation">None</td>
+                    <td class="tvalue" id="studBehave">None</td>
+                    <td class="tvalue" id="studAbsence">None</td>
+                    <td class="tvalue" id="studMinus">None</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </header>
+
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="topFooter">
+            <h3 class="cName">NBB - Notify Board For Business</h3>
+
+            <div class="socials">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+        <div class="bottomFooter">
+            <p>&copy;2025 NBB, All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
+
+<!-- Majesty was here :) -->
